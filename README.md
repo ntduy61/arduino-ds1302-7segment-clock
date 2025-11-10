@@ -30,18 +30,18 @@ The program reads the current time from the DS1302 chip and displays it on the 7
 **⚙️Manual Installation (if Library Manager doesn’t find it)**
 
 - **Download the DS1302 library from GitHub:**
-- 👉 https://github.com/msparks/arduino-ds1302
++ 👉 https://github.com/msparks/arduino-ds1302
 
 - **Then in Arduino IDE:**
 
-- Go to Sketch → Include Library → Add .ZIP Library…
++ Go to Sketch → Include Library → Add .ZIP Library…
 
-- Select the downloaded .zip file.
++ Select the downloaded .zip file.
 
-- Wait for it to install — you’ll see “Library added to your libraries”.
++ Wait for it to install — you’ll see “Library added to your libraries”.
 
 - **✅ Now you can include it in your code with:**
-- #include <DS1302.h>
++ #include <DS1302.h>
 
 
 📸 Optional preview:
