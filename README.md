@@ -24,6 +24,24 @@ The program reads the current time from the DS1302 chip and displays it on the 7
   - DS1302 CLK -> A1
   - Segment a–g, dp -> 2–9
   - Digit D1–D4 ->  10–13
+![hq720](https://github.com/user-attachments/assets/ade2a9e3-efc7-416d-a4cf-a74eeb73a73b)
+
+**⚙️Manual Installation (if Library Manager doesn’t find it)**
+
+- **Download the DS1302 library from GitHub:**
+- 👉 https://github.com/msparks/arduino-ds1302
+
+- **Then in Arduino IDE:**
+
+- Go to Sketch → Include Library → Add .ZIP Library…
+
+- Select the downloaded .zip file.
+
+- Wait for it to install — you’ll see “Library added to your libraries”.
+
+- **✅ Now you can include it in your code with:**
+- #include <DS1302.h>
+
 
 📸 Optional preview:
 ![IMG_20251108_162823_121](https://github.com/user-attachments/assets/530b191e-ff03-4981-8517-884fdf73d27a)
