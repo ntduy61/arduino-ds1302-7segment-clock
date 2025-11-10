@@ -24,6 +24,7 @@ The program reads the current time from the DS1302 chip and displays it on the 7
   - DS1302 CLK -> A1
   - Segment a–g, dp -> 2–9
   - Digit D1–D4 ->  10–13
+    
 ![hq720](https://github.com/user-attachments/assets/ade2a9e3-efc7-416d-a4cf-a74eeb73a73b)
 
 **⚙️Manual Installation (if Library Manager doesn’t find it)**
